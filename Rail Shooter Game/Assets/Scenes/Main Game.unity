@@ -837,6 +837,8 @@ MonoBehaviour:
   ySpeed: 8
   xRange: 4
   yRange: 2
+  positionPitchFactor: -7
+  positionYawFactor: 7
 --- !u!1 &2007668051
 GameObject:
   m_ObjectHideFlags: 0
