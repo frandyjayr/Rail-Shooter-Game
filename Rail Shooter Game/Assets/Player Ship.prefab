@@ -41,7 +41,6 @@ GameObject:
   - component: {fileID: 54951173952485660}
   - component: {fileID: 65693683219079452}
   - component: {fileID: 114261873301511124}
-  - component: {fileID: 114684302042143792}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -162,17 +161,6 @@ MonoBehaviour:
   yRange: 2
   positionPitchFactor: -7
   positionYawFactor: 9.5
---- !u!114 &114684302042143792
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384312272597362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 523f80c6c6a3d144e9551597448f97d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!198 &198756933259730224
 ParticleSystem:
   m_ObjectHideFlags: 1
