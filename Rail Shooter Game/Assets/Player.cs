@@ -14,16 +14,25 @@ public class Player : MonoBehaviour {
 
     float xThrow, yThrow;
 
+    bool controlsEnabled = true;
+
     // Use this for initialization
     void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        ProcessTranslation();
-        ProcessRotation();
 
+
+    // Update is called once per frame
+    void Update () {
+        if (controlsEnabled) {
+            ProcessTranslation();
+            ProcessRotation();
+        }
+    }
+
+    void CharacterDeath() {
+        //controlsEnabled = false;
+        print("Character has died");
     }
 
     private void ProcessRotation() {
