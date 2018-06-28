@@ -117,4 +117,4 @@ MonoBehaviour:
   deathFX: {fileID: 1080379397997400, guid: f6af5c7db3144c94e964c1df1c7174de, type: 2}
   parent: {fileID: 0}
   scorePerHit: 12
-  healthPoints: 20
+  healthPoints: 2
